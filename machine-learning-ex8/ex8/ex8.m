@@ -104,7 +104,6 @@ load('ex8data2.mat');
 
 %  Apply the same steps to the larger dataset
 [mu sigma2] = estimateGaussian(X);
-
 %  Training set 
 p = multivariateGaussian(X, mu, sigma2);
 
